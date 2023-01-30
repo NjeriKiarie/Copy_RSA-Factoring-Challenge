@@ -5,8 +5,8 @@ import sys
 
 # fn unpack number factorial
 
-def fc():
-    """function fc to search file to convert number and format n=p*q"""
+def factorize():
+    """function factorize to search file to convert number and format n=p*q"""
 
     try:
         revfile = sys.argv[1]
@@ -27,4 +27,4 @@ def fc():
     except (IndexError):
         pass
 # autostart
-fc()
+factorize()
